@@ -1,0 +1,53 @@
+.task {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    touch-action: none;
+    cursor: grab;
+}
+.removebutton,.settingsbutton {
+    border: none;
+    border-radius: 10px;
+    padding: 0.25rem;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+}
+.drag_icon{
+    cursor: grab;
+}
+.delete_wrapper{
+    width: 300px;
+    background-color: red;
+}
+.main_list_wrapper{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    touch-action: none;
+    cursor: default;
+    max-height : 40px;
+}
+.main_list_wrapper span{
+    margin: 0px !important;
+}
+.removebutton svg{
+    width:20px
+}
+.settingsbutton svg{
+    width:20px
+}
